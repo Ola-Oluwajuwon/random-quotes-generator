@@ -1,0 +1,45 @@
+body {
+    background: linear-gradient(90deg, rgba(128, 0, 128, 0.8), rgba(255, 105, 180, 0.8)), url(./Assets/Images/grid-g1bbbd1480_1920.jpg);
+    font-family: cursive !important;
+}
+
+header {
+    background-color: rgba(240, 248, 255, 0.2);
+    /* box-shadow: 0 2px 18px 0px black; */
+}
+
+button:hover {
+    color: white !important;
+    background: rgba(128, 0, 128, 1) !important;
+}
+
+#container{
+    width: 85%;
+    max-width: 760px;
+    background: rgba(0, 0, 0, 0.6);
+    text-align: justify;
+}
+
+#footer-container {
+    background: rgba(0, 0, 0, 0.6);
+} 
+
+@media screen and (max-width: 480px) {
+    #container {
+        width: 98%;
+        padding: 10px 5px !important;
+    }
+
+    h1 {
+        font-size: 20px !important;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    #page__footer {
+        position: absolute;
+        bottom: 0.2rem;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
